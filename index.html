@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VP Vikas | Portfolio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="bg-rose-900 overflow-x-hidden scroll-smooth">
+
+    <div class="px-6 md:px-20 lg:px-40">
+
+        <!-- ================= NAVBAR ================= -->
+        <nav class="flex justify-between items-center h-24">
+
+            <!-- Logo -->
+            <a href="#home" class="text-3xl font-bold border border-rose-500 px-4 py-1 rounded-md 
+bg-rose-500/10 text-rose-500
+shadow-[0_0_15px_rgba(244,63,94,0.8)]
+hover:shadow-[0_0_35px_rgba(244,63,94,1)]
+transition duration-300">
+
+                V<span class="text-white">P.</span>
+
+            </a>
+
+            <!-- Desktop Menu -->
+            <ul class="hidden md:flex items-center space-x-10">
+
+                <li>
+                    <a href="#home" class="text-rose-500">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#intro" class="text-white hover:text-rose-500 transition duration-300">
+                        My Intro
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#services" class="text-white hover:text-rose-500 transition duration-300">
+                        Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#portfolio" class="text-white hover:text-rose-500 transition duration-300">
+                        Portfolio
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#blog" class="text-white hover:text-rose-500 transition duration-300">
+                        Blog
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact"
+                        class="text-white bg-rose-500 px-6 py-2 rounded-full border-2 border-rose-500 hover:bg-rose-600 transition duration-300">
+                        Hire Me
+                    </a>
+                </li>
+
+            </ul>
+
+            <!-- Hamburger -->
+            <a href="#" id="burger" class="text-white text-3xl md:hidden z-50">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+
+        </nav>
+
+
+
+        <!-- ================= HERO SECTION ================= -->
+        <section id="home" class="flex flex-col-reverse md:flex-row justify-between items-center pt-10 md:pt-5 gap-10">
+
+            <!-- Left -->
+            <div>
+
+                <span class="text-white text-xl">
+                    👋 Hi, I'm
+                </span>
+
+                <h1 class="text-rose-500 text-5xl md:text-7xl font-bold font-serif mt-2 mb-3">
+                    V<span class="text-white">P.</span> Vikas
+                </h1>
+
+                <h2 class="text-rose-300 font-bold uppercase text-xl md:text-2xl">
+                    Web Developer / Designer
+                </h2>
+
+                <p class="text-gray-300 mt-6 max-w-lg mb-12 leading-8">
+                    I'm a passionate web developer focused on building modern,
+                    responsive, and user-friendly websites with clean design
+                    and seamless user experiences.
+                </p>
+                <div>
+
+                </div>
+
+                <!-- Buttons -->
+                <div class="flex flex-wrap gap-5">
+
+                    <a href="assets/Modern_Vikas_Pawar_Resume.pdf" download="Vikas-Pawar-Resume"
+                        class="text-white bg-rose-500 px-6 py-3 rounded-full border-2 border-rose-500 hover:bg-rose-600 transition-transform duration-300 hover:scale-105">
+
+                        Download CV
+
+                    </a>
+
+                    <a href="#contact"
+                        class="text-white px-6 py-3 rounded-full border-2 border-rose-500 hover:bg-rose-600 transition-transform duration-300 hover:scale-105">
+
+                        Contact Us
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Right -->
+            <div class="flex justify-center">
+
+                <img src="assets/vikas.png" class="w-full max-w-md md:max-w-lg object-contain rounded-full">
+
+            </div>
+
+        </section>
+
+        <section>
+            <!-- Social Icons -->
+
+<ul class="flex items-center gap-5 mt-10">
+
+    <!-- LinkedIn -->
+    <li>
+        <a href="https://www.linkedin.com/in/vikas-pawar-74468a183"
+            target="_blank"
+            class="w-14 h-14 flex items-center justify-center rounded-full
+            border border-rose-500 text-white text-2xl
+            bg-rose-500/10
+            shadow-[0_0_15px_rgba(244,63,94,0.6)]
+            hover:bg-rose-500 hover:scale-110
+            transition duration-300">
+
+            <i class="fa-brands fa-linkedin"></i>
+
+        </a>
+    </li>
+
+    <!-- GitHub -->
+    <li>
+        <a href="https://github.com/vikaspawar-dev"
+            target="_blank"
+            class="w-14 h-14 flex items-center justify-center rounded-full
+            border border-rose-500 text-white text-2xl
+            bg-rose-500/10
+            shadow-[0_0_15px_rgba(244,63,94,0.6)]
+            hover:bg-rose-500 hover:scale-110
+            transition duration-300">
+
+            <i class="fa-brands fa-github"></i>
+
+        </a>
+    </li>
+
+    <!-- WhatsApp -->
+    <li>
+        <a href="https://wa.me/917218739737"
+            target="_blank"
+            class="w-14 h-14 flex items-center justify-center rounded-full
+            border border-rose-500 text-white text-2xl
+            bg-rose-500/10
+            shadow-[0_0_15px_rgba(244,63,94,0.6)]
+            hover:bg-rose-500 hover:scale-110
+            transition duration-300">
+
+            <i class="fa-brands fa-whatsapp"></i>
+
+        </a>
+    </li>
+
+</ul>
+        </section>
+
+        <!-- ================= Skills ================= -->
+
+<section class="py-24">
+
+    <div>
+
+        <h1 class="text-4xl font-bold text-rose-500 mb-10 text-center">
+            Web Designer & Developer
+        </h1>
+
+        <ul class="flex flex-wrap gap-4 ">
+
+            <li
+                class="bg-rose-500/20 border border-rose-500 text-white px-5 py-2 rounded-full shadow-[0_0_15px_rgba(244,63,94,0.5)] hover:scale-105 transition duration-300">
+                HTML
+            </li>
+
+            <li
+                class="bg-rose-500/20 border border-rose-500 text-white px-5 py-2 rounded-full shadow-[0_0_15px_rgba(244,63,94,0.5)] hover:scale-105 transition duration-300">
+                CSS
+            </li>
+
+            <li
+                class="bg-rose-500/20 border border-rose-500 text-white px-5 py-2 rounded-full shadow-[0_0_15px_rgba(244,63,94,0.5)] hover:scale-105 transition duration-300">
+                JavaScript
+            </li>
+
+            <li
+                class="bg-rose-500/20 border border-rose-500 text-white px-5 py-2 rounded-full shadow-[0_0_15px_rgba(244,63,94,0.5)] hover:scale-105 transition duration-300">
+                React.js
+            </li>
+
+            <li
+                class="bg-rose-500/20 border border-rose-500 text-white px-5 py-2 rounded-full shadow-[0_0_15px_rgba(244,63,94,0.5)] hover:scale-105 transition duration-300">
+                Tailwind CSS
+            </li>
+
+            <li
+                class="bg-rose-500/20 border border-rose-500 text-white px-5 py-2 rounded-full shadow-[0_0_15px_rgba(244,63,94,0.5)] hover:scale-105 transition duration-300">
+                Bootstrap
+            </li>
+
+            <li
+                class="bg-rose-500/20 border border-rose-500 text-white px-5 py-2 rounded-full shadow-[0_0_15px_rgba(244,63,94,0.5)] hover:scale-105 transition duration-300">
+                ASP.NET
+            </li>
+
+            <li
+                class="bg-rose-500/20 border border-rose-500 text-white px-5 py-2 rounded-full shadow-[0_0_15px_rgba(244,63,94,0.5)] hover:scale-105 transition duration-300">
+                GitHub
+            </li>
+
+            <li
+                class="bg-rose-500/20 border border-rose-500 text-white px-5 py-2 rounded-full shadow-[0_0_15px_rgba(244,63,94,0.5)] hover:scale-105 transition duration-300">
+                Responsive Design
+            </li>
+
+        </ul>
+
+    </div>
+</section>
+
+
+
+        <!-- ================= MY INTRO ================= -->
+        <section id="intro" class="py-24">
+
+            <div class="text-center mb-16">
+
+                <h2 class="text-4xl font-bold text-rose-500">
+                    My Intro
+                </h2>
+
+                <p class="text-gray-300 mt-4 max-w-2xl mx-auto leading-8">
+                    I'm a passionate frontend developer with experience in
+                    creating responsive and modern websites using HTML, CSS,
+                    Tailwind CSS, JavaScript, React.js, and ASP.NET.
+                </p>
+
+            </div>
+
+        </section>
+
+        
+
+
+        <!-- ================= SERVICES ================= -->
+        <section id="services" class="py-24">
+
+            <div class="text-center mb-16">
+
+                <h2 class="text-4xl font-bold text-rose-500">
+                    Services
+                </h2>
+
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <!-- Card -->
+                <div class="bg-rose-800 p-8 rounded-2xl hover:-translate-y-2 transition duration-300">
+
+                    <i class="fa-solid fa-code text-4xl text-rose-300 mb-6"></i>
+
+                    <h3 class="text-2xl font-bold text-white mb-4">
+                        Web Development
+                    </h3>
+
+                    <p class="text-gray-300 leading-7">
+                        Creating responsive, modern, and fast-loading websites
+                        with clean code and user-friendly design.
+                    </p>
+
+                </div>
+
+                <!-- Card -->
+                <div class="bg-rose-800 p-8 rounded-2xl hover:-translate-y-2 transition duration-300">
+
+                    <i class="fa-solid fa-laptop-code text-4xl text-rose-300 mb-6"></i>
+
+                    <h3 class="text-2xl font-bold text-white mb-4">
+                        Frontend Design
+                    </h3>
+
+                    <p class="text-gray-300 leading-7">
+                        Designing attractive and responsive UI with Tailwind CSS
+                        and smooth user experience.
+                    </p>
+
+                </div>
+
+                <!-- Card -->
+                <div class="bg-rose-800 p-8 rounded-2xl hover:-translate-y-2 transition duration-300">
+
+                    <i class="fa-solid fa-mobile-screen text-4xl text-rose-300 mb-6"></i>
+
+                    <h3 class="text-2xl font-bold text-white mb-4">
+                        Responsive Design
+                    </h3>
+
+                    <p class="text-gray-300 leading-7">
+                        Building fully responsive websites optimized for mobile,
+                        tablet, and desktop devices.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= PORTFOLIO ================= -->
+        <section id="portfolio" class="py-24">
+
+            <div class="text-center mb-16">
+
+                <h2 class="text-4xl font-bold text-rose-500">
+                    Portfolio
+                </h2>
+
+                <p class="text-gray-300 mt-4">
+                    Some of my recent projects
+                </p>
+
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <!-- Project -->
+                <div class="bg-rose-800 rounded-2xl overflow-hidden hover:-translate-y-2 transition duration-300">
+
+                    <img src="assets/grocery.png" class="w-full h-60 object-cover">
+
+                    <div class="p-6">
+
+                        <h3 class="text-2xl font-bold text-white mb-3">
+                            Grocery Website
+                        </h3>
+
+                        <p class="text-gray-300 mb-6 leading-7">
+                            Responsive grocery website built with modern UI.
+                        </p>
+
+                        <a href="https://vikaspawar-dev.github.io/grocery-web-app/" target="_blank"
+                            class="inline-block text-white bg-rose-500 px-5 py-2 rounded-full hover:bg-rose-600 transition duration-300">
+
+                            View Project
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Project -->
+                <div class="bg-rose-800 rounded-2xl overflow-hidden hover:-translate-y-2 transition duration-300">
+
+                    <img src="assets/bakery.png" class="w-full h-60 object-cover">
+
+                    <div class="p-6">
+
+                        <h3 class="text-2xl font-bold text-white mb-3">
+                            Bakery Website
+                        </h3>
+
+                        <p class="text-gray-300 mb-6 leading-7">
+                            Beautiful bakery website with responsive layout.
+                        </p>
+
+                        <a href="https://vikaspawar-dev.github.io/bakery-website/" target="_blank"
+                            class="inline-block text-white bg-rose-500 px-5 py-2 rounded-full hover:bg-rose-600 transition duration-300">
+
+                            View Project
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Project -->
+                <div class="bg-rose-800 rounded-2xl overflow-hidden hover:-translate-y-2 transition duration-300">
+
+                    <img src="assets/shopping.png" class="w-full h-60 object-cover">
+
+                    <div class="p-6">
+
+                        <h3 class="text-2xl font-bold text-white mb-3">
+                            BuzzBuy Shopping Website
+                        </h3>
+
+                        <p class="text-gray-300 mb-6 leading-7">
+                            Modern shopping website with stylish design.
+                        </p>
+
+                        <a href="https://vikaspawar-dev.github.io/buzzbuy-shopping-website/" target="_blank"
+                            class="inline-block text-white bg-rose-500 px-5 py-2 rounded-full hover:bg-rose-600 transition duration-300">
+
+                            View Project
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= BLOG ================= -->
+        <section id="blog" class="py-24">
+
+            <div class="text-center mb-16">
+
+                <h2 class="text-4xl font-bold text-rose-500">
+                    Blog
+                </h2>
+
+                <p class="text-gray-300 mt-4">
+                    Latest articles and updates
+                </p>
+
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <!-- Blog 1 -->
+                <div class="bg-rose-800 p-8 rounded-2xl">
+
+                    <span class="text-rose-300 text-sm">
+                        Web Design
+                    </span>
+
+                    <h3 class="text-2xl font-bold text-white my-4">
+                        Modern UI Design Tips
+                    </h3>
+
+                    <p class="text-gray-300 leading-7 mb-4">
+                        Learn how to create clean and modern UI designs.
+                    </p>
+
+                    <!-- Hidden Text -->
+                    <p id="blog1" class="hidden text-gray-400 leading-7 mb-5">
+                        Modern UI design focuses on simplicity, spacing,
+                        typography, colors, and user experience. A clean
+                        layout improves readability and helps users interact
+                        easily with your website. Always use responsive
+                        design, proper contrast, and modern animations for
+                        better engagement.
+                    </p>
+
+                    <button onclick="toggleText('blog1', this)" class="text-rose-300 font-semibold cursor-pointer">
+
+                        Read More →
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- Blog 2 -->
+                <div class="bg-rose-800 p-8 rounded-2xl">
+
+                    <span class="text-rose-300 text-sm">
+                        React.js
+                    </span>
+
+                    <h3 class="text-2xl font-bold text-white my-4">
+                        Why Learn React.js?
+                    </h3>
+
+                    <p class="text-gray-300 leading-7 mb-4">
+                        React.js helps developers build fast frontend apps.
+                    </p>
+
+                    <!-- Hidden Text -->
+                    <p id="blog2" class="hidden text-gray-400 leading-7 mb-5">
+                        React.js is one of the most popular JavaScript
+                        libraries for building interactive user interfaces.
+                        It uses reusable components, virtual DOM, and fast
+                        rendering which makes development easier and faster.
+                        Many companies use React for modern web applications.
+                    </p>
+
+                    <button onclick="toggleText('blog2', this)" class="text-rose-300 font-semibold cursor-pointer">
+
+                        Read More →
+
+                    </button>
+
+                </div>
+
+
+
+                <!-- Blog 3 -->
+                <div class="bg-rose-800 p-8 rounded-2xl">
+
+                    <span class="text-rose-300 text-sm">
+                        Responsive Design
+                    </span>
+
+                    <h3 class="text-2xl font-bold text-white my-4">
+                        Mobile First Design
+                    </h3>
+
+                    <p class="text-gray-300 leading-7 mb-4">
+                        Learn how mobile-first design improves UX.
+                    </p>
+
+                    <!-- Hidden Text -->
+                    <p id="blog3" class="hidden text-gray-400 leading-7 mb-5">
+                        Mobile-first design means creating websites for small
+                        screens first and then scaling them for larger
+                        devices. This approach improves performance,
+                        accessibility, and user experience on smartphones,
+                        tablets, and desktops.
+                    </p>
+
+                    <button onclick="toggleText('blog3', this)" class="text-rose-300 font-semibold cursor-pointer">
+
+                        Read More →
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- ================= BLOG ================= -->
+
+
+
+        <!-- ================= CONTACT ================= -->
+        
+        <section id="contact" class="py-24">
+
+            <div class="text-center mb-16">
+
+                <h2 class="text-4xl font-bold text-rose-500">
+                    Contact Me
+                </h2>
+
+                <p class="text-gray-300 mt-4">
+                    Let's work together
+                </p>
+
+            </div>
+
+            <!-- Form -->
+            <form action="https://formsubmit.co/pvikasrmc@gmail.com" method="POST" class="max-w-3xl mx-auto space-y-6">
+
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <!-- Optional Success Page -->
+                <input type="hidden" name="_next" value="https://vikaspawar-dev.github.io/portfolio/">
+
+                <!-- Name -->
+                <input type="text" name="name" placeholder="Your Name" required
+                    class="w-full bg-rose-950 text-white p-4 rounded-xl outline-none border border-rose-800 focus:border-rose-500">
+
+                <!-- Email -->
+                <input type="email" name="email" placeholder="Your Email" required
+                    class="w-full bg-rose-950 text-white p-4 rounded-xl outline-none border border-rose-800 focus:border-rose-500">
+
+                <!-- Message -->
+                <textarea rows="6" name="message" placeholder="Your Message" required
+                    class="w-full bg-rose-950 text-white p-4 rounded-xl outline-none border border-rose-800 focus:border-rose-500"></textarea>
+
+                <!-- Button -->
+                <button type="submit"
+                    class="bg-rose-500 text-white font-bold px-8 py-3 rounded-full hover:bg-rose-600 transition duration-300">
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+        </section>
+
+    </div>
+
+
+
+    <!-- ================= MOBILE MENU ================= -->
+    <ul id="list"
+        class="flex flex-col justify-center items-center gap-10 md:hidden bg-rose-500 fixed top-0 left-0 h-screen w-64 transform -translate-x-full transition-transform duration-300 z-40">
+
+        <li>
+            <a href="#home" class="text-rose-900 text-lg font-semibold">
+                Home
+            </a>
+        </li>
+
+        <li>
+            <a href="#intro" class="text-white hover:text-rose-900 text-lg">
+                My Intro
+            </a>
+        </li>
+
+        <li>
+            <a href="#services" class="text-white hover:text-rose-900 text-lg">
+                Services
+            </a>
+        </li>
+
+        <li>
+            <a href="#portfolio" class="text-white hover:text-rose-900 text-lg">
+                Portfolio
+            </a>
+        </li>
+
+        <li>
+            <a href="#blog" class="text-white hover:text-rose-900 text-lg">
+                Blog
+            </a>
+        </li>
+
+    </ul>
+
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+    <script>
+
+        const list = document.getElementById('list');
+        const humburger = document.getElementById('burger');
+        const bars = document.querySelector('.fa-bars');
+
+        humburger.addEventListener('click', (e) => {
+
+            e.preventDefault();
+
+            list.classList.toggle('-translate-x-full');
+            list.classList.toggle('translate-x-0');
+
+            bars.classList.toggle('fa-bars');
+            bars.classList.toggle('fa-xmark');
+
+        });
+
+        function toggleText(id, button) {
+
+            const text = document.getElementById(id);
+
+            text.classList.toggle('hidden');
+
+            if (text.classList.contains('hidden')) {
+
+                button.innerHTML = 'Read More →';
+
+            } else {
+
+                button.innerHTML = 'Show Less ←';
+
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
